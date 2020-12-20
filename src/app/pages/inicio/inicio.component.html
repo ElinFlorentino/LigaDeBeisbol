@@ -1,133 +1,90 @@
-<app-acciones (enviarJson)="jugadores = $event"></app-acciones>
+<app-acciones (enviarJson)="jugadores=$event"></app-acciones>
 <div class="conteiner">
   <div class="asideL">
-    <aside class="mejores">
-      <h1>Los Mejores</h1>
-      <div class="player">
-        <img
-          src="assets/img/{{ jugadores[0].img }}"
-          alt="Avatar"
-          class="avatar"
-        />
-        <P>{{ jugadores[0].nombre }}</P>
-      </div>
-      <div class="player">
-        <img
-          src="assets/img/{{ jugadores[20].img }}"
-          alt="Avatar"
-          class="avatar"
-        />
-        <P>{{ jugadores[1].nombre }}</P>
-      </div>
-      <div class="player">
-        <img
-          src="assets/img/{{ jugadores[12].img }}"
-          alt="Avatar"
-          class="avatar"
-        />
-        <P>{{ jugadores[2].nombre }}</P>
-      </div>
-      <div class="player">
-        <img
-          src="assets/img/{{ jugadores[3].img }}"
-          alt="Avatar"
-          class="avatar"
-        />
-        <P>{{ jugadores[3].nombre }}</P>
-      </div>
-      <div class="player">
-        <img
-          src="assets/img/{{ jugadores[30].img }}"
-          alt="Avatar"
-          class="avatar"
-        />
-        <P>{{ jugadores[4].nombre }}</P>
-      </div>
-    </aside>
-  </div>
-  <div class="main">
-    <main>
-      <div class="corousal">
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-ride="carousel"
-        >
-          <ol class="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to="0"
-              class="active"
-            ></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner" data-interval="2000">
-            <div class="carousel-item active">
-              <img
-                src="assets/img/slide-1.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item" data-interval="2000">
-              <img
-                src="assets/img/slide-2.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-            <div class="carousel-item" data-interval="2000">
-              <img
-                src="assets/img/slide-3.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
-          </div>
-          <a
-            class="carousel-control-prev"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a
-            class="carousel-control-next"
-            href="#carouselExampleIndicators"
-            role="button"
-            data-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-      <div class="contenido">
-        <img src="assets/img/main-1.jpg" alt="" />
-        <h2>Nuevo estadio en San Juan</h2>
-        <img src="assets/img/main-2.jpg" alt="" />
-        <h2>Grandes jugadas arriesgadas</h2>
-        <img src="assets/img/main-3.jpg" alt="" />
-        <h2>Celebracion en los equipos</h2>
-        <img src="assets/img/main-4.jpg" alt="" />
-        <h2>Bateadores Agiles</h2>
-      </div>
-    </main>
-  </div>
-  <div class="asideR">
-    <aside>
-      <h1>Buscar jugador</h1>
-      <p>Ingrese el nombre:</p>
-      <input type="text" />
-      <button id="button" (click)="buscarJugador()">{{ boton }}</button>
-      <div id="busqueda" class="busqueda">
-        <p><b>Jugador:</b>{{ jugadorNombre }}</p>
-        <p><b>Equipo: </b>{{ equipoNombre }}</p>
-      </div>
-      <p class="busqueda" id="sinresultado">El jugador no fue encontrado..</p>
-    </aside>
-  </div>
+  <aside class="mejores">
+    <h1>Los Mejores</h1>
+    <div class="player">
+      <img src="assets/img/{{jugadores[0].img}}" alt="Avatar" class="avatar" />
+      <P>{{jugadores[0].nombre}}</P>
+    </div>
+    <div class="player">
+      <img src="assets/img/{{jugadores[20].img}}" alt="Avatar" class="avatar" />
+      <P>{{jugadores[1].nombre}}</P>
+    </div>
+    <div class="player">
+      <img src="assets/img/{{jugadores[12].img}}" alt="Avatar" class="avatar" />
+      <P>{{jugadores[2].nombre}}</P>
+    </div>
+    <div class="player">
+      <img src="assets/img/{{jugadores[3].img}}" alt="Avatar" class="avatar" />
+      <P>{{jugadores[3].nombre}}</P>
+    </div>
+    <div class="player">
+      <img src="assets/img/{{jugadores[30].img}}" alt="Avatar" class="avatar" />
+      <P>{{jugadores[4].nombre}}</P>
+    </div>
+
+  </aside>
 </div>
+<div class="main">
+  <main>
+    <div class="corousal">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" data-interval="2000">
+          <div class="carousel-item active">
+            <img src="assets/img/slide-1.jpg" class="d-block w-100" alt="..."/>
+          </div>
+          <div class="carousel-item" data-interval="2000">
+            <img src="assets/img/slide-2.jpg" class="d-block w-100" alt="..."/>
+          </div>
+          <div class="carousel-item" data-interval="2000">
+            <img src="assets/img/slide-3.jpg" class="d-block w-100" alt="..."/>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators"  role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="contenido">
+      <img src="assets/img/main-1.jpg" alt="">
+      <h2>Nuevo estadio en San Juan</h2>
+      <img src="assets/img/main-2.jpg" alt="">
+      <h2>Grandes jugadas arriesgadas</h2>
+      <img src="assets/img/main-3.jpg" alt="">
+      <h2>Celebracion en los equipos</h2>
+      <img src="assets/img/main-4.jpg" alt="">
+      <h2>Bateadores Agiles</h2>
+    </div>
+  </main>
+</div>
+<div class="asideR">
+  <aside>
+    <h1>Buscar jugador</h1>
+    <p>Ingrese el nombre:</p><input type="text">
+    <button id="button" (click) ="buscarJugador()">{{boton}}</button>
+    <div id="busqueda" class="busqueda">
+      <p><b>Jugador:</b>{{jugadorNombre}} </p>
+      <p><b>Equipo: </b>{{equipoNombre}} </p>
+    </div>
+    <p class="busqueda" id="sinresultado">El jugador no fue encontrado..</p>
+  </aside>
+</div>
+</div>
+
+
+
