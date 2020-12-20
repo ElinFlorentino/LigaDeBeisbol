@@ -1,0 +1,437 @@
+[
+  {
+    "nombre": "Juan perez",
+    "edad": "22",
+    "pisicion": "Catcher",
+    "pais": "Republica Dominicana",
+    "equipo": "Perros Falderos",
+    "img": "player-1.png"
+  },
+  {
+    "nombre": "Emilio raya",
+    "edad": "23",
+    "pisicion": "Pitcher",
+    "pais": "Republica Dominicana",
+    "equipo": "Perros Falderos",
+    "img": "player-2.png"
+  },
+  {
+    "nombre": "Matias Buzo",
+    "edad": "21",
+    "pisicion": "First baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Perros Falderos",
+    "img": "player-3.png"
+  },
+  {
+    "nombre": "Marcos Perico",
+    "edad": "23",
+    "pisicion": "Second baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Perros Falderos",
+    "img": "player-4.png"
+  },
+  {
+    "nombre": "Deonisio Roca",
+    "edad": "22",
+    "pisicion": "Third baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Perros Falderos",
+    "img": "player-5.png"
+  },
+  {
+    "nombre": "Mario Vela",
+    "edad": "23",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Perros Falderos",
+    "img": "player-6.png"
+  },
+  {
+    "nombre": "Marino Flores",
+    "edad": "24",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Perros Falderos",
+    "img": "player-7.png"
+  },
+  {
+    "nombre": "Pedro Planta",
+    "edad": "25",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Perros Falderos",
+    "img": "player-8.png"
+  },
+  {
+    "nombre": "Robert Palo",
+    "edad": "24",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Perros Falderos",
+    "img": "player-9.png"
+  },
+  {
+    "nombre": "Rafael Libra",
+    "edad": "25",
+    "pisicion": "Pitcher",
+    "pais": "Republica Dominicana",
+    "equipo": "Ciguas del Sur",
+    "img": "player-10.png"
+  },
+  {
+    "nombre": "Diego Pozo",
+    "edad": "23",
+    "pisicion": "Catcher",
+    "pais": "Republica Dominicana",
+    "equipo": "Ciguas del Sur",
+    "img": "player-11.png"
+  },
+
+  {
+    "nombre": "Cristian Reyes",
+    "edad": "21",
+    "pisicion": "First baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Ciguas del Sur",
+    "img": "player-12.png"
+  },
+  {
+    "nombre": "Marcos Perico",
+    "edad": "23",
+    "pisicion": "Second baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Ciguas del Sur",
+    "img": "player-13.png"
+  },
+  {
+    "nombre": "Armando Campos",
+    "edad": "23",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Ciguas del Sur",
+    "img": "player-14.png"
+  },
+  {
+    "nombre": "Claudio Jimenez",
+    "edad": "21",
+    "pisicion": "Third baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Ciguas del Sur",
+    "img": "player-15.png"
+  },
+
+  {
+    "nombre": "Cesar Campusano",
+    "edad": "24",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Ciguas del Sur",
+    "img": "player-16.png"
+  },
+  {
+    "nombre": "Jorge Morales",
+    "edad": "25",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Ciguas del Sur",
+    "img": "player-17.png"
+  },
+  {
+    "nombre": "Richar Toledo",
+    "edad": "24",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Ciguas del Sur",
+    "img": "player-18.png"
+  },
+  {
+    "nombre": "Hugo Molares",
+    "edad": "23",
+    "pisicion": "Catcher",
+    "pais": "Republica Dominicana",
+    "equipo": "Gatos Feroces",
+    "img": "player-19.png"
+  },
+  {
+    "nombre": "Radamez Rodriguez",
+    "edad": "24",
+    "pisicion": "Pitcher",
+    "pais": "Republica Dominicana",
+    "equipo": "Gatos Feroces",
+    "img": "player-20.png"
+  },
+  {
+    "nombre": "Paulino Tolentino",
+    "edad": "21",
+    "pisicion": "First baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Gatos Feroces",
+    "img": "player-21.png"
+  },
+  {
+    "nombre": "Geraldo Soledad",
+    "edad": "23",
+    "pisicion": "Second baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Gatos Feroces",
+    "img": "player-22.png"
+  },
+  {
+    "nombre": "Danilo Ponte",
+    "edad": "22",
+    "pisicion": "Third baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Gatos Feroces",
+    "img": "player-23.png"
+  },
+  {
+    "nombre": "Jesus Polanco",
+    "edad": "25",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Gatos Feroces",
+    "img": "player-24.png"
+  },
+  {
+    "nombre": "Gustabo Mejia",
+    "edad": "24",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Gatos Feroces",
+    "img": "player-25.png"
+  },
+  {
+    "nombre": "Victor Obando",
+    "edad": "25",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Gatos Feroces",
+    "img": "player-26.png"
+  },
+  {
+    "nombre": "Eduardo Delgado",
+    "edad": "24",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Gatos Feroces",
+    "img": "player-27.png"
+  },
+  {
+    "nombre": "Ruben perez",
+    "edad": "23",
+    "pisicion": "Catcher",
+    "pais": "Republica Dominicana",
+    "equipo": "Carpinteros de Acero",
+    "img": "player-28.png"
+  },
+  {
+    "nombre": "Maicol Hidalgo",
+    "edad": "23",
+    "pisicion": "Pitcher",
+    "pais": "Republica Dominicana",
+    "equipo": "Carpinteros de Acero",
+    "img": "player-29.png"
+  },
+  {
+    "nombre": "Francisco Ramirez",
+    "edad": "25",
+    "pisicion": "First baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Carpinteros de Acero",
+    "img": "player-30.png"
+  },
+  {
+    "nombre": "Miguel Cervantes",
+    "edad": "23",
+    "pisicion": "Second baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Carpinteros de Acero",
+    "img": "player-31.png"
+  },
+  {
+    "nombre": "Leopoldo Milanos",
+    "edad": "22",
+    "pisicion": "Third baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Carpinteros de Acero",
+    "img": "player-32.png"
+  },
+  {
+    "nombre": "Gerson Guillen",
+    "edad": "23",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Carpinteros de Acero",
+    "img": "player-33.png"
+  },
+  {
+    "nombre": "Marino Flores",
+    "edad": "24",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Carpinteros de Acero",
+    "img": "player-34.png"
+  },
+  {
+    "nombre": "Pedro Planta",
+    "edad": "25",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Carpinteros de Acero",
+    "img": "player-35.png"
+  },
+  {
+    "nombre": "Robert Palo",
+    "edad": "24",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Carpinteros de Acero",
+    "img": "player-36.png"
+  },
+  {
+    "nombre": "Maximo Guzman",
+    "edad": "24",
+    "pisicion": "Catcher",
+    "pais": "Republica Dominicana",
+    "equipo": "Rolones del norte",
+    "img": "player-37.png"
+  },
+  {
+    "nombre": "Fernando Agular",
+    "edad": "23",
+    "pisicion": "Pitcher",
+    "pais": "Republica Dominicana",
+    "equipo": "Rolones del norte",
+    "img": "player-38.png"
+  },
+  {
+    "nombre": "Saul Medina",
+    "edad": "22",
+    "pisicion": "First baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Rolones del norte",
+    "img": "player-39.png"
+  },
+  {
+    "nombre": "Yunior Nova",
+    "edad": "23",
+    "pisicion": "Second baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Rolones del norte",
+    "img": "player-40.png"
+  },
+  {
+    "nombre": "Henrique Perez",
+    "edad": "22",
+    "pisicion": "Third baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Rolones del norte",
+    "img": "player-41.png"
+  },
+  {
+    "nombre": "Jose Jimenez",
+    "edad": "23",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Rolones del norte",
+    "img": "player-42.png"
+  },
+  {
+    "nombre": "Noe Rodriguez",
+    "edad": "24",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Rolones del norte",
+    "img": "player-43.png"
+  },
+  {
+    "nombre": "Pedro Campusano",
+    "edad": "23",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Rolones del norte",
+    "img": "player-44.png"
+  },
+  {
+    "nombre": "Roberto Mejia",
+    "edad": "24",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Rolones del norte",
+    "img": "player-45.png"
+  },
+
+  {
+    "nombre": "Reinaldo Hernandez",
+    "edad": "24",
+    "pisicion": "Catcher",
+    "pais": "Republica Dominicana",
+    "equipo": "Gallos Guerreros",
+    "img": "player-46.png"
+  },
+  {
+    "nombre": "Angel Rondon",
+    "edad": "25",
+    "pisicion": "Pitcher",
+    "pais": "Republica Dominicana",
+    "equipo": "Gallos Guerreros",
+    "img": "player-47.png"
+  },
+  {
+    "nombre": "Saulo Mendez",
+    "edad": "24",
+    "pisicion": "First baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Gallos Guerreros",
+    "img": "player-48.png"
+  },
+  {
+    "nombre": "Timoteo Nova",
+    "edad": "22",
+    "pisicion": "Second baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Gallos Guerreros",
+    "img": "player-49.png"
+  },
+  {
+    "nombre": "Luis Perez",
+    "edad": "22",
+    "pisicion": "Third baseman",
+    "pais": "Republica Dominicana",
+    "equipo": "Gallos Guerreros",
+    "img": "player-50.png"
+  },
+  {
+    "nombre": "Armando Jimenez",
+    "edad": "21",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Gallos Guerreros",
+    "img": "player-51.png"
+  },
+  {
+    "nombre": "Esteban Rodriguez",
+    "edad": "24",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Gallos Guerreros",
+    "img": "player-5.png"
+  },
+  {
+    "nombre": "Ramon Campusano",
+    "edad": "24",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Gallos Guerreros",
+    "img": "player-52.png"
+  },
+  {
+    "nombre": "Amado Mejia",
+    "edad": "22",
+    "pisicion": "Field",
+    "pais": "Republica Dominicana",
+    "equipo": "Gallos Guerreros",
+    "img": "player-53.png"
+  }
+]
