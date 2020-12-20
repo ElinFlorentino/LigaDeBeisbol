@@ -2,6 +2,7 @@ nav {
   background-color: black;
   height: 3rem;
   align-items: center;
+
 }
 nav .nav {
   list-style: none;
@@ -14,7 +15,7 @@ nav .nav {
   color: white;
   font-size: 20px;
   text-decoration: none;
-  padding: 9px 20px;
+  padding: 14px 20px;
 }
 .nav-e a:hover {
   background-color: rgb(63, 63, 68);

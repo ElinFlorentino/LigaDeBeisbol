@@ -1,7 +1,7 @@
 <app-acciones (enviarJson)="jugadores=$event"></app-acciones>
 <div class="contenedor">
   <div class="jugador" *ngFor="let jugador of jugadores">
-    <img src="../assets/img/{{ jugador.img }}" alt="" />
+    <img src="../../assets/img/{{ jugador.img }}" alt="" />
     <ul>
       <li><b>Nombre: </b>{{ jugador.nombre }}</li>
       <li><b>Edad: </b>{{ jugador.edad }}</li>
