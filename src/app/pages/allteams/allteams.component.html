@@ -1,12 +1,12 @@
 <div class="conteiner">
   <div class="contenedor2">
     <div class="imgEquipo">
-      <img src="../assets/img/Perros Falderos.png" alt="" />
+      <img src="assets/img/Perros Falderos.png" alt="" />
     </div>
     <div class="equipo">
       <div class="jugadores" *ngFor="let equipo of equipo1">
         <br />
-        <img src="../assets/img/{{ equipo.img }}" alt="" />
+        <img src="assets/img/{{ equipo.img }}" alt="" />
         <ul>
           <li><b>Nombre: </b>{{ equipo.nombre }}</li>
           <li><b>Edad: </b>{{ equipo.edad }}</li>
@@ -16,12 +16,12 @@
       </div>
     </div>
     <div class="imgEquipo">
-      <img src="../assets/img/Gallos Guerreros.png" alt="" />
+      <img src="assets/img/Gallos Guerreros.png" alt="" />
     </div>
     <div class="equipo">
       <div class="jugadores" *ngFor="let equipo of equipo2">
         <br />
-        <img src="../assets/img/{{ equipo.img }}" alt="" />
+        <img src="assets/img/{{ equipo.img }}" alt="" />
         <ul>
           <li><b>Nombre: </b>{{ equipo.nombre }}</li>
           <li><b>Edad: </b>{{ equipo.edad }}</li>
@@ -31,12 +31,12 @@
       </div>
     </div>
     <div class="imgEquipo">
-      <img src="../assets/img/Ciguas del Sur.png" alt="" />
+      <img src="assets/img/Ciguas del Sur.png" alt="" />
     </div>
     <div class="equipo">
       <div class="jugadores" *ngFor="let equipo of equipo3">
         <br />
-        <img src="../assets/img/{{ equipo.img }}" alt="" />
+        <img src="assets/img/{{ equipo.img }}" alt="" />
         <ul>
           <li><b>Nombre: </b>{{ equipo.nombre }}</li>
           <li><b>Edad: </b>{{ equipo.edad }}</li>
@@ -46,12 +46,12 @@
       </div>
     </div>
     <div class="imgEquipo">
-      <img src="../assets/img/Gatos Feroces.png" alt="" />
+      <img src="assets/img/Gatos Feroces.png" alt="" />
     </div>
     <div class="equipo">
       <div class="jugadores" *ngFor="let equipo of equipo4">
         <br />
-        <img src="../assets/img/{{ equipo.img }}" alt="" />
+        <img src="assets/img/{{ equipo.img }}" alt="" />
         <ul>
           <li><b>Nombre: </b>{{ equipo.nombre }}</li>
           <li><b>Edad: </b>{{ equipo.edad }}</li>
@@ -61,12 +61,12 @@
       </div>
     </div>
     <div class="imgEquipo">
-      <img src="../assets/img/Carpinteros de Acero.png" alt="" />
+      <img src="assets/img/Carpinteros de Acero.png" alt="" />
     </div>
     <div class="equipo">
       <div class="jugadores" *ngFor="let equipo of equipo5">
         <br />
-        <img src="../assets/img/{{ equipo.img }}" alt="" />
+        <img src="assets/img/{{ equipo.img }}" alt="" />
         <ul>
           <li><b>Nombre: </b>{{ equipo.nombre }}</li>
           <li><b>Edad: </b>{{ equipo.edad }}</li>
@@ -76,12 +76,12 @@
       </div>
     </div>
     <div class="imgEquipo">
-      <img src="../assets/img/Rolones del norte.png" alt="" />
+      <img src="assets/img/Rolones del norte.png" alt="" />
     </div>
     <div class="equipo">
       <div class="jugadores" *ngFor="let equipo of equipo6">
         <br />
-        <img src="../assets/img/{{ equipo.img }}" alt="" />
+        <img src="assets/img/{{ equipo.img }}" alt="" />
         <ul>
           <li><b>Nombre: </b>{{ equipo.nombre }}</li>
           <li><b>Edad: </b>{{ equipo.edad }}</li>
@@ -104,12 +104,14 @@
         <option>Carpinteros de Acero</option>
         <option>Rolones del norte</option>
       </select>
-      <p>Ingrese juegos Ganados:</p><input type="text" id="input1">
-      <p>Ingrese juegos Perdidos:</p><input type="text" id="input2" >
-    <button id="button" (click)="calcularPromedio()">Calcular</button>
-    <p class="busqueda" id="promedio"><b>El promedio es: </b>{{resultado}}</p>
+      <p>Ingrese juegos Ganados:</p>
+      <input type="text" id="input1" />
+      <p>Ingrese juegos Perdidos:</p>
+      <input type="text" id="input2" />
+      <button id="button" (click)="calcularPromedio()">Calcular</button>
+      <p class="busqueda" id="promedio">
+        <b>El promedio es: </b>{{ resultado }}
+      </p>
     </aside>
   </div>
 </div>
-
-

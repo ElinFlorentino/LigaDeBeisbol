@@ -11,8 +11,6 @@ export class AccionesComponent implements OnInit {
   mejores: any = [];
   equipo: any = [];
   @Output() enviarJson = new EventEmitter<any>();
-  @Output() enviarMejores = new EventEmitter<any>();
-  @Output() enviarEquipo = new EventEmitter<any>();
 
   constructor(private dataService: DataService) {}
 
