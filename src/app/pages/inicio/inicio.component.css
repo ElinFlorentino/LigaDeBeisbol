@@ -1,0 +1,103 @@
+.conteiner {
+  display: flex;
+  height: auto;
+  width: auto;
+  margin-top: 8rem;
+}
+.asideL {
+  display: flex;
+  width: 16rem;
+  height: 32rem;
+  border-radius: 10px;
+  margin-left: 10px;
+  background-color: white;
+  flex-wrap: wrap;
+}
+.asideL aside {
+  margin-left: 10px;
+  width: 13rem;
+  height: 30rem;
+}
+.asideL aside h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+.player {
+  display: flex;
+}
+.player img {
+  vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  margin-top: 5px;
+  border-radius: 50%;
+}
+.player p {
+  margin-top: 2rem;
+  margin-left: 10px;
+}
+
+.main {
+  width: 45rem;
+  height: auto;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 10px;
+  background-color: white;
+}
+.main .corousal {
+  display: inline-block;
+  height: 15rem;
+  width: 100%;
+  position: relative;
+}
+.main .corousal img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.asideR {
+  width: 15rem;
+  height: 14rem;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+.asideR aside {
+  margin-left: 10px;
+}
+
+.asideR aside h1 {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+
+.asideR aside button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 2px;
+}
+.asideR aside .busqueda {
+  display: none;
+}
+.contenido {
+  display: grid;
+  justify-content: center;
+}
+.contenido img {
+  width: 500px;
+  height: 400px;
+}
+.contenido h2 {
+  margin-bottom: 3rem;
+}
+.footer {
+  width: 100%;
+  height: 10rem;
+  margin-top: 5rem;
+  background-color: black;
+}

@@ -1,0 +1,24 @@
+<app-acciones #accion></app-acciones>
+<header>
+  <nav>
+    <ul class="nav">
+      <li class="nav-e">
+        <a routerLink="inicio">Inicio</a>
+      </li>
+      <li class="nav-e">
+        <a routerLink="equipos">Equipos<i class="icon ion-md-arrow-dropdown"></i
+        ></a>
+        <ul>
+          <li class="sub-menu"><a routerLink="equipos/Perros Falderos" (click)="accion.selecEquipo('Perros Falderos')">Perros Falderos</a></li>
+          <li class="sub-menu"><a routerLink="equipos/Gallos Guerreros" (click)="accion.selecEquipo('Gallos Guerreros')">Gallos Guerreros</a></li>
+          <li class="sub-menu"><a routerLink="equipos/Ciguas del Sur" (click)="accion.selecEquipo('Ciguas del Sur')">Ciguas del sur </a></li>
+          <li class="sub-menu"><a routerLink="equipos/Gatos Feroces" (click)="accion.selecEquipo('Gatos Feroces')">Gatos Feroces</a></li>
+          <li class="sub-menu"><a routerLink="equipos/Carpinteros de Acero" (click)="accion.selecEquipo('Carpinteros de Acero')">Carpinteros de Acero</a></li>
+          <li class="sub-menu"><a routerLink="equipos/Rolones del norte" (click)="accion.selecEquipo('Rolones del norte')">Rolones del norte</a></li>
+        </ul>
+      </li>
+      <li class="nav-e"><a routerLink="jugadores">Jugadores</a></li>
+      <li class="nav-e"><a routerLink="nosotros">Nosotros</a></li>
+    </ul>
+  </nav>
+</header>

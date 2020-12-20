@@ -1,0 +1,46 @@
+nav {
+  background-color: black;
+  height: 3rem;
+  align-items: center;
+}
+nav .nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-e a {
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 9px 20px;
+}
+.nav-e a:hover {
+  background-color: rgb(63, 63, 68);
+  color: white;
+}
+
+.nav-e ul {
+  display: none;
+  list-style: none;
+  position: absolute;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid darkgray;
+}
+.nav-e:hover ul {
+  display: flex;
+  z-index: 1;
+}
+
+.nav-e ul li a {
+  display: flex;
+  color: black;
+}
+
+.icon {
+  position: relative;
+  top: 3px;
+  margin-left: 10px;
+}

@@ -1,0 +1,18 @@
+<div class="contenedor">
+  <div class="imgEquipo">
+    <img src="../assets/img/{{ equipoNombre }}.png" alt="" />
+  </div>
+  <div class="equipo">
+    <div class="jugadores" *ngFor="let equipo of equipo">
+      <br />
+      <img src="../assets/img/{{ equipo.img }}" alt="" />
+      <ul>
+        <li><b>Nombre: </b>{{ equipo.nombre }}</li>
+        <li><b>Edad: </b>{{ equipo.edad }}</li>
+        <li><b>Pais: </b>{{ equipo.pais }}</li>
+        <li><b>Equipo: </b>{{ equipo.equipo }}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+

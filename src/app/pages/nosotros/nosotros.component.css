@@ -1,0 +1,95 @@
+.conteiner-1 {
+  margin-top: 5rem;
+  height: 20rem;
+  background-color: rgb(104, 104, 219);
+}
+.nosotros {
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.nosotros h1 {
+  margin-top: 8rem;
+}
+.conteiner-1 .des {
+  float: right;
+  width: 50%;
+  display: block;
+}
+.conteiner-1 .des h2 {
+  margin-top: 5rem;
+  margin-bottom: 15px;
+}
+.conteiner-2 {
+  margin-top: 5rem;
+  height: 20rem;
+}
+.vision {
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.vision h1 {
+  margin-top: 8rem;
+}
+.conteiner-2 .des {
+  float: right;
+  width: 50%;
+  display: block;
+}
+.conteiner-2 .des h2 {
+  margin-top: 5rem;
+  margin-bottom: 15px;
+}
+.conteiner-3 {
+  margin-top: 2rem;
+  height: 20rem;
+  background-color: rgb(199, 68, 68);
+}
+.mision {
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.mision h1 {
+  margin-top: 8rem;
+}
+.conteiner-3 .des {
+  float: right;
+  width: 50%;
+  display: block;
+}
+.conteiner-3 .des h2 {
+  margin-top: 5rem;
+  margin-bottom: 15px;
+}
+.conteiner-4 {
+  margin-top: 5rem;
+  height: 20rem;
+}
+.valores {
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.valores h1 {
+  margin-top: 8rem;
+}
+.conteiner-4 .des {
+  float: right;
+  width: 50%;
+  display: block;
+}
+.conteiner-4 .des p {
+  margin-top: 8rem;
+}
+.footer {
+  width: 100%;
+  height: 10rem;
+  margin-top: 5rem;
+  background-color: black;
+}
